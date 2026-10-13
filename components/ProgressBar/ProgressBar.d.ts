@@ -1,0 +1,18 @@
+export type ProgressBarProps = {
+    /**
+     * Sets the current progress indicator, between 0 and 100.
+     */
+    progress: number;
+    /**
+     * Controls the height of the bar.
+     */
+    height?: number;
+    /**
+     * Sets the css class attribute.
+     */
+    className?: string;
+};
+export declare const ProgressBar: {
+    ({ progress, height, className }: ProgressBarProps): import("react").JSX.Element;
+    displayName: string;
+};
